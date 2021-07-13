@@ -1,0 +1,103 @@
+@media screen and (min-width: 1200px) {
+	.main-menu a:after {
+	    content: '';
+	    display: block;
+	    width: 0;
+	    margin: auto;
+	    margin-top: -48px;
+	    box-shadow: 0 7px 0 0 #cd5b5b, 0px 8px 15px 1px rgba(250, 123, 123);
+	    border-radius: 20%;
+	    transition: .3s;
+	    height: 3px;
+	}
+	.main-menu a:hover:after {
+	    width: 100%;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.main-menu a:hover {
+		color: #cd5b5b;
+	    text-shadow: 0px 0px 16px #cd5b5b;
+	}
+	.main-menu {
+		display: none;
+	}
+	.header {
+		flex-direction: row-reverse;
+	}
+	.logo {
+		float: right;
+    	margin: 5px auto 0 0;
+	}
+	.show-menu-btn,.hide-menu-btn {
+        display: block;
+    }
+	#chk:checked ~ .main-menu {
+        margin: 0;
+        padding: 0;
+        background-color: #373737;
+        width: 100%;
+		height: 100%;
+    	position: fixed;
+        left: 0;
+		padding: 40% 0;
+        z-index: 333;
+        display: block;
+		text-align: center;
+    }
+	#chk:checked ~ .main-menu li {
+		margin: 0;
+		margin-top: 20px;
+	}
+
+	.mobile-row {
+		justify-content: center;
+	}
+	.last-buys {
+		margin: 0;
+		margin-top: 100px;
+	}
+	.otziv {
+		margin: 0;
+		margin-top: 100px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.last-buys {
+		height: auto;
+	}
+	.otziv {
+		width: 100%;
+		height: 100%;
+	}
+	.otziv-text-area {
+		display: block;
+		text-align: center;
+	}
+	.otziv-text {
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.footer {
+		margin-top: 150px;
+	}
+}
+@media screen and (max-width: 530px) {
+	.main-form {
+		width: 100%;
+	}
+	.main-form .name-input {
+		width: 80%;
+	}
+	.main-form .form-select {
+		width: 80%;
+	}
+	.form-btn {
+		width: 70%;
+	}
+	.notify-action {
+		width: 90%;
+	}
+}

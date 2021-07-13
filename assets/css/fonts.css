@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'TT Norms Medium';
+	src: url('../fonts/TTNorms-Medium.eot');
+	src: url('../fonts/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TTNorms-Medium.woff') format('woff'),
+	url('../fonts/TTNorms-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TT Norms Bold Italic';
+	src: url('../fonts/TTNorms-BoldItalic.eot');
+	src: url('../fonts/TTNorms-BoldItalic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TTNorms-BoldItalic.woff') format('woff'),
+	url('../fonts/TTNorms-BoldItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Myriad Pro Regular';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MyriadPro-Regular.woff') format('woff'),
+	url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TT_Norms_Bold';
+	src: url('../fonts/TTNorms-Bold.eot');
+	src: url('../fonts/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TTNorms-Bold.woff') format('woff'),
+	url('../fonts/TTNorms-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
